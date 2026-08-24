@@ -1,0 +1,135 @@
+
+navbar:
+  logo:
+    title: 阿卡西紀錄
+    # 解讀與教學
+  menu:
+    # - name: 首頁
+    #   icon: fa-solid fa-house
+    #   url: /
+
+    - name: 關於我
+      icon: fa-solid fa-user
+      url: /about/
+
+    - name: 文章
+      icon: fa-solid fa-file-lines
+      url: /archives/
+
+    # - name: 分類
+    #   icon: fa-solid fa-folder
+    #   url: /categories/
+
+    - name: 標籤
+      icon: fa-solid fa-tags
+      url: /tags/
+
+    - name: 阿卡西紀錄陪讀
+      icon: fa-solid fa-people-arrows
+      url: /coach_accompanying/
+
+    # - name: 群組
+    #   icon: fa-solid fa-users
+    #   url: /group/
+
+    # - name: 心智圖
+    #   icon: fa-solid fa-diagram-project
+    #   url: /markmap/
+
+search:
+  enable: true
+
+post:
+  # 顯示文章作者
+  author: true
+  # 顯示文章日期
+  date: true
+  # 顯示文章分類
+  category: true
+  # 顯示文章標籤
+  tags: true
+
+# ====
+article:
+  body:
+    meta_library:
+      author:
+        name: bird210501
+        url: /
+      share: []
+      # share: # 不支援
+      #   - id: line
+      #   - id: instagram
+      #   - id: threads
+      date:
+        title: '發布於：'
+
+      updated:
+        title: '更新於：'
+
+      counter:
+        unit: '次瀏覽'
+
+      walinecount:
+        desc: '條評論'
+
+      artalkcount:
+        desc: '條評論'
+
+# ====
+
+category:
+  enable: true
+
+tag:
+  enable: true
+
+archive:
+  enable: true
+
+custom_css:
+  # 網站內容最大寬度
+  max_width: 1200px
+
+footer:
+  copyright: true
+
+social:
+
+# =============================================================
+
+cover:
+  features:
+    - name: 關於我
+      icon:
+      img: volantis-static/media/twemoji/assets/svg/1f464.svg
+      url: /about/
+
+    - name: 文章
+      icon:
+      img: volantis-static/media/twemoji/assets/svg/1f4f0.svg
+      url: /archives/
+
+    - name: 標籤
+      icon:
+      img: volantis-static/media/twemoji/assets/svg/1f5c2.svg
+      url: /tags/
+
+    - name: 阿卡西紀錄陪讀
+      icon:
+      img: volantis-static/media/twemoji/assets/svg/1f465.svg
+      url: /coach_accompanying/
+
+    # - name: 群組
+    #   icon:
+    #   img: volantis-static/media/twemoji/assets/svg/1f465.svg
+    #   url: /group/
+
+    # - name: 心智圖
+    #   icon:
+    #   img: volantis-static/media/twemoji/assets/svg/1f9e0.svg
+    #   url: /markmap/
+
+# comments:
+  # service: ''
+comments: false
