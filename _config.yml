@@ -14,7 +14,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://thglhana-nna.github.io
+url: https://lidiviablog.github.io
 # root: /
 root: /lidivia-blog/
 permalink: :title/
@@ -110,7 +110,7 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/thglhana-nna/lidivia.git
+  repo: https://github.com/lidiviablog/lidivia.git
   branch: gh-pages
 
 sitemap:
